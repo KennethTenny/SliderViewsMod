@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "272498352032",
+    "firebase_url": "https://swipeimplementation.firebaseio.com",
+    "project_id": "swipeimplementation",
+    "storage_bucket": "swipeimplementation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272498352032:android:4f9fb69b38d72196",
+        "android_client_info": {
+          "package_name": "com.example.kennymac.swipeimplementation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272498352032-tbcfid1350t9c6qn14717q1687kbtlvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kennymac.swipeimplementation",
+            "certificate_hash": "c5df4ed8062235dc5baac47eeca5b051b368a9f8"
+          }
+        },
+        {
+          "client_id": "272498352032-0r4gf3j8igj9129aarshs93vb3q0e2p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgEMR0YDznx7aKjZjyBGU6EFwOqRgsuZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272498352032-0r4gf3j8igj9129aarshs93vb3q0e2p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
