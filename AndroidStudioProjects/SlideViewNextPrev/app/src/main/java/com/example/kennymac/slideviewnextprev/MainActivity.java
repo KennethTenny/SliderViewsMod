@@ -34,16 +34,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             viewFlipper.showNext();
             number++;
-            display=(number)%(number_of_slides);
 
-                count.setText("" + (display+1));
+            DoTheMagic();
+
         }
         else if (v == previous) {
             viewFlipper.showPrevious();
             number--;
-            display=(number)%(number_of_slides);
 
-                count.setText("" + (display+1));
+            DoTheMagic();
         }
     }
+
+    private void DoTheMagic() {
+
+        display=(number)%(number_of_slides);
+
+        if((display+1)!=(number_of_slides))
+            next.setVisibility(View.VISIBLE);
+        else
+            next.setVisibility(View.INVISIBLE);
+
+        if((display+1)!=1)
+            previous.setVisibility(View.VISIBLE);
+        else
+            previous.setVisibility(View.INVISIBLE);
+
+        count.setText("" + (display+1));
+    }
+
+
 }
